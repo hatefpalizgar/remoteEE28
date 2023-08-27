@@ -12,6 +12,12 @@ public class LambdaWithMultipleParameters {
         StringConcatFunctionalInterface s = (str1, str2) -> str1 + str2;
 
         System.out.println(s.concat("Hello", " World"));
+
+
+        /*
+         * Next: see PredicateExample
+         *
+         * */
     }
 }
 
